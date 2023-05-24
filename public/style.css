@@ -3,15 +3,21 @@
   border: 0;
   padding: 0;
   font-family: "Karla", sans-serif;
+  font-weight: 600;
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: bisque;
 }
 
 a {
   text-decoration: none;
   color: gray;
+}
+
+#blue {
+  font-size: 20px;
+  color: midnightblue;
 }
 
 .menu-my-name {
@@ -30,7 +36,10 @@ a {
 }
 
 .main-screen {
-  margin: 1rem 0 0 0;
+  /* margin: 1rem 0 0 0; */
+  height: 85vh;
+  width: 100vw;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,8 +54,17 @@ a {
 .main-screen img {
   width: 20vw;
   height: auto;
+  border-radius: 1rem;
 }
 
 .main-screen span {
   flex: 0.1;
+}
+
+.with_pic {
+  display: flex;
+}
+
+.with_pic img {
+  width: 10vh;
 }
