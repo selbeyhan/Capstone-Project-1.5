@@ -4,10 +4,7 @@
   padding: 0;
   font-family: "Karla", sans-serif;
   font-weight: 600;
-}
-
-body {
-  background-color: bisque;
+  background-color: #ebb3a9;
 }
 
 a {
@@ -48,6 +45,7 @@ a {
 .main-screen p {
   max-width: 25vw;
   font: bolder;
+  color: #eeebd0;
   font-size: 2vw;
 }
 
@@ -63,6 +61,17 @@ a {
 
 .with_pic {
   display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.with_pic p {
+  color: midnightblue;
+  flex: 0.4;
+}
+
+.with_pic p span {
+  color: #eeebd0;
 }
 
 .with_pic img {
